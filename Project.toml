@@ -1,0 +1,4 @@
+name = "MorphAnalyzer"
+uuid = "d5c2fd7a-6cff-4069-b269-7c18989cc998"
+authors = ["Haco <136149894+dogwood-flo@users.noreply.github.com>"]
+version = "0.1.0"
