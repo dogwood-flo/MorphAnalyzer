@@ -1,5 +1,3 @@
-module SubTrie
-
 mutable struct Trie_Node
     char::Char
     children::Union{Int, Vector{Int}}
@@ -142,5 +140,3 @@ function search(trie::Trie, word::String)
     return trie.nodes[search_index].accept_flag
 
 end
-
-end # module SubTrie

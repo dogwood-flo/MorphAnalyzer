@@ -1,12 +1,11 @@
 include("../src/Trie.jl")
-using Main.SubTrie
 
+trie = Trie()
+insert!(trie, "hello")
+insert!(trie, "world")
+insert!(trie, "hell")
+insert!(trie, "worlds")
+insert!(trie, "workspace")
 
-trie = SubTrie.Trie()
-SubTrie.insert!(trie, "hello")
-SubTrie.insert!(trie, "world")
-SubTrie.insert!(trie, "hell")
-SubTrie.insert!(trie, "worlds")
-SubTrie.insert!(trie, "workspace")
-
-SubTrie.print(trie)
+print(trie)
+listup(trie)
